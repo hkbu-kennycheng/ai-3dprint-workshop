@@ -1,0 +1,22 @@
+{
+    "servers": {
+        "serena": {
+			"command": "uvx",
+			"args": ["--from", "git+https://github.com/oraios/serena", "serena", "start-mcp-server", "--context", "ide", "--project", "${workspaceFolder}", "--transport", "stdio"]
+		},
+        "deepwiki": {
+			"type": "http",
+			"url": "https://mcp.deepwiki.com/mcp"
+		},
+        "blender": {
+            "command": "uvx",
+            "args": [
+                "blender-mcp"
+            ]
+        },
+        "chrome-devtools": {
+            "command": "npx",
+            "args": ["-y", "chrome-devtools-mcp@latest", "--executablePath", "/usr/bin/chromium-browser"]
+        }
+    }
+}
