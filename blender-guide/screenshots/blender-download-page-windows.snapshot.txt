@@ -1,0 +1,610 @@
+uid=2_0 RootWebArea "Download — Blender" url="https://www.blender.org/download/"
+  uid=2_1 ignored
+    uid=2_2 generic
+      uid=2_3 ignored
+        uid=2_4 navigation
+          uid=2_5 ignored
+            uid=2_6 link "blender.org homepage" url="https://www.blender.org/"
+            uid=2_7 list
+              uid=2_8 listitem level="1"
+                uid=2_9 link "Features" url="https://www.blender.org/features/"
+                  uid=2_10 StaticText "Features"
+                    uid=2_11 InlineTextBox "Features"
+              uid=2_12 listitem level="1"
+                uid=2_13 link "Download" url="https://www.blender.org/download/"
+                  uid=2_14 StaticText "Download"
+                    uid=2_11 InlineTextBox "Download"
+              uid=2_15 listitem level="1"
+                uid=2_16 link "Support" url="https://www.blender.org/support/"
+                  uid=2_17 StaticText "Support"
+                    uid=2_11 InlineTextBox "Support"
+              uid=2_18 listitem level="1"
+                uid=2_19 link "Get Involved" url="https://www.blender.org/get-involved/"
+                  uid=2_20 StaticText "Get Involved"
+                    uid=2_11 InlineTextBox "Get Involved"
+              uid=2_21 listitem level="1"
+                uid=2_22 link "About" url="https://www.blender.org/about/"
+                  uid=2_23 StaticText "About"
+                    uid=2_11 InlineTextBox "About"
+              uid=2_24 listitem level="1"
+                uid=2_25 link "Jobs" description="[NEW]" url="https://www.blender.org/jobs/"
+                  uid=2_26 StaticText "Jobs"
+                    uid=2_11 InlineTextBox "Jobs"
+              uid=2_27 listitem level="1"
+                uid=2_28 link "Store" url="https://store.blender.org/"
+                  uid=2_29 StaticText "Store"
+                    uid=2_11 InlineTextBox "Store"
+              uid=2_30 listitem level="1"
+                uid=2_31 link " Donate" description="Join the Development Fund" url="https://fund.blender.org/?utm_medium=www-nav"
+                  uid=2_32 generic
+                    uid=2_33 generic
+                      uid=2_11 StaticText ""
+                        uid=2_11 InlineTextBox ""
+                  uid=2_34 StaticText "Donate"
+                    uid=2_11 InlineTextBox "Donate"
+        uid=2_35 navigation
+          uid=2_36 ignored
+            uid=2_37 list
+              uid=2_38 listitem level="1"
+                uid=2_39 link "Download" url="https://www.blender.org/download/"
+                  uid=2_40 StaticText "Download"
+                    uid=2_11 InlineTextBox "Download"
+              uid=2_41 listitem level="1"
+                uid=2_42 generic
+                  uid=2_43 generic
+                    uid=2_11 StaticText ""
+                      uid=2_11 InlineTextBox ""
+              uid=2_44 listitem level="1"
+                uid=2_45 link "LTS" url="https://www.blender.org/download/lts/"
+                  uid=2_46 StaticText "LTS"
+                    uid=2_11 InlineTextBox "LTS"
+              uid=2_47 listitem level="1"
+                uid=2_48 link "Release Notes" url="https://www.blender.org/download/releases/"
+                  uid=2_49 StaticText "Release Notes"
+                    uid=2_11 InlineTextBox "Release Notes"
+              uid=2_50 listitem level="1"
+                uid=2_51 link "Previous Versions" url="https://www.blender.org/download/previous-versions/"
+                  uid=2_52 StaticText "Previous Versions"
+                    uid=2_11 InlineTextBox "Previous Versions"
+              uid=2_53 listitem level="1"
+                uid=2_54 link "Requirements" url="https://www.blender.org/download/requirements/"
+                  uid=2_55 StaticText "Requirements"
+                    uid=2_11 InlineTextBox "Requirements"
+              uid=2_56 listitem level="1"
+                uid=2_57 link "Daily Builds" url="https://www.blender.org/download/builds/"
+                  uid=2_58 StaticText "Daily Builds"
+                    uid=2_11 InlineTextBox "Daily Builds"
+              uid=2_59 listitem level="1"
+                uid=2_60 link "Demo Files" url="https://www.blender.org/download/demo-files/"
+                  uid=2_61 StaticText "Demo Files"
+                    uid=2_11 InlineTextBox "Demo Files"
+              uid=2_62 listitem level="1"
+                uid=2_63 link "Benchmark" url="https://www.blender.org/download/benchmark/"
+                  uid=2_64 StaticText "Benchmark"
+                    uid=2_11 InlineTextBox "Benchmark"
+              uid=2_65 listitem level="1"
+                uid=2_66 link "Extensions" url="https://www.blender.org/download/extensions/"
+                  uid=2_67 StaticText "Extensions"
+                    uid=2_11 InlineTextBox "Extensions"
+        uid=2_68 navigation
+          uid=2_69 list
+            uid=2_70 listitem level="1"
+              uid=2_71 link "Features" url="https://www.blender.org/features/"
+                uid=2_72 StaticText "Features"
+                  uid=2_11 InlineTextBox "Features"
+            uid=2_73 listitem level="1"
+              uid=2_74 link "Download" url="https://www.blender.org/download/"
+                uid=2_75 StaticText "Download"
+                  uid=2_11 InlineTextBox "Download"
+            uid=2_76 listitem level="1"
+              uid=2_77 link "Support" url="https://www.blender.org/support/"
+                uid=2_78 StaticText "Support"
+                  uid=2_11 InlineTextBox "Support"
+            uid=2_79 listitem level="1"
+              uid=2_80 link "Get Involved" url="https://www.blender.org/get-involved/"
+                uid=2_81 StaticText "Get Involved"
+                  uid=2_11 InlineTextBox "Get Involved"
+            uid=2_82 listitem level="1"
+              uid=2_83 link "About" url="https://www.blender.org/about/"
+                uid=2_84 StaticText "About"
+                  uid=2_11 InlineTextBox "About"
+            uid=2_85 listitem level="1"
+              uid=2_86 link "Jobs" description="[NEW]" url="https://www.blender.org/jobs/"
+                uid=2_87 StaticText "Jobs"
+                  uid=2_11 InlineTextBox "Jobs"
+            uid=2_88 listitem level="1"
+              uid=2_89 link "Store" url="https://store.blender.org/"
+                uid=2_90 StaticText "Store"
+                  uid=2_11 InlineTextBox "Store"
+            uid=2_91 listitem level="1"
+              uid=2_92 link " Donate" description="Join the Development Fund" url="https://fund.blender.org/?utm_medium=www-nav"
+                uid=2_93 ignored
+                  uid=2_94 generic
+                    uid=2_11 StaticText ""
+                      uid=2_11 InlineTextBox ""
+                uid=2_95 StaticText " Donate"
+                  uid=2_11 InlineTextBox " Donate"
+          uid=2_96 navigation
+            uid=2_97 ignored
+              uid=2_98 list
+                uid=2_99 listitem level="1"
+                  uid=2_100 link "LTS" url="https://www.blender.org/download/lts/"
+                    uid=2_101 StaticText "LTS"
+                      uid=2_11 InlineTextBox "LTS"
+                uid=2_102 listitem level="1"
+                  uid=2_103 link "Release Notes" url="https://www.blender.org/download/releases/"
+                    uid=2_104 StaticText "Release Notes"
+                      uid=2_11 InlineTextBox "Release Notes"
+                uid=2_105 listitem level="1"
+                  uid=2_106 link "Previous Versions" url="https://www.blender.org/download/previous-versions/"
+                    uid=2_107 StaticText "Previous Versions"
+                      uid=2_11 InlineTextBox "Previous Versions"
+                uid=2_108 listitem level="1"
+                  uid=2_109 link "Requirements" url="https://www.blender.org/download/requirements/"
+                    uid=2_110 StaticText "Requirements"
+                      uid=2_11 InlineTextBox "Requirements"
+                uid=2_111 listitem level="1"
+                  uid=2_112 link "Daily Builds" url="https://www.blender.org/download/builds/"
+                    uid=2_113 StaticText "Daily Builds"
+                      uid=2_11 InlineTextBox "Daily Builds"
+                uid=2_114 listitem level="1"
+                  uid=2_115 link "Demo Files" url="https://www.blender.org/download/demo-files/"
+                    uid=2_116 StaticText "Demo Files"
+                      uid=2_11 InlineTextBox "Demo Files"
+                uid=2_117 listitem level="1"
+                  uid=2_118 link "Benchmark" url="https://www.blender.org/download/benchmark/"
+                    uid=2_119 StaticText "Benchmark"
+                      uid=2_11 InlineTextBox "Benchmark"
+                uid=2_120 listitem level="1"
+                  uid=2_121 link "Extensions" url="https://www.blender.org/download/extensions/"
+                    uid=2_122 StaticText "Extensions"
+                      uid=2_11 InlineTextBox "Extensions"
+        uid=2_123 generic
+          uid=2_124 generic
+            uid=2_125 ignored
+              uid=2_126 heading "The Freedom to Create" level="1"
+                uid=2_127 StaticText "The Freedom to Create"
+                  uid=2_11 InlineTextBox "The Freedom to Create"
+              uid=2_128 ignored
+                uid=2_129 generic
+                  uid=2_130 link " Download Blender" description="Download Blender for Linux" url="https://www.blender.org/download/release/Blender5.1/blender-5.1.0-linux-x64.tar.xz/"
+                    uid=2_131 generic
+                      uid=2_132 generic
+                        uid=2_11 StaticText ""
+                          uid=2_11 InlineTextBox ""
+                    uid=2_133 StaticText " Download Blender"
+                      uid=2_11 InlineTextBox " Download Blender"
+                  uid=2_134 list
+                    uid=2_135 listitem level="1"
+                      uid=2_136 ignored
+                        uid=2_137 generic
+                          uid=2_11 StaticText ""
+                            uid=2_11 InlineTextBox ""
+                      uid=2_138 strong
+                        uid=2_139 StaticText " Linux"
+                          uid=2_11 InlineTextBox " Linux"
+                      uid=2_140 ignored
+                        uid=2_11 StaticText "·"
+                          uid=2_11 InlineTextBox "·"
+                    uid=2_141 listitem level="1"
+                      uid=2_142 StaticText "v5.1"
+                        uid=2_11 InlineTextBox "v5.1"
+                  uid=2_143 list
+                    uid=2_144 listitem "Tiny isn't?" level="1"
+                      uid=2_145 StaticText "378MB"
+                        uid=2_11 InlineTextBox "378MB"
+                      uid=2_146 ignored
+                        uid=2_11 StaticText "·"
+                          uid=2_11 InlineTextBox "·"
+                    uid=2_147 listitem "Release date" level="1"
+                      uid=2_148 StaticText "March 17, 2026"
+                        uid=2_11 InlineTextBox "March 17, 2026"
+              uid=2_149 generic
+                uid=2_150 StaticText "Windows,"
+                  uid=2_11 InlineTextBox "Windows,"
+                uid=2_151 StaticText " "
+                  uid=2_11 InlineTextBox " "
+                uid=2_152 StaticText "macOS,"
+                  uid=2_11 InlineTextBox "macOS,"
+                uid=2_153 StaticText "and other versions "
+                  uid=2_11 InlineTextBox "and other versions "
+                uid=2_154 generic
+                  uid=2_155 generic
+                    uid=2_11 StaticText ""
+                      uid=2_11 InlineTextBox ""
+              uid=2_156 ignored
+                uid=2_157 ignored
+                  uid=2_158 ignored
+                uid=2_159 ignored
+                  uid=2_160 ignored
+                uid=2_161 ignored
+                  uid=2_162 ignored
+                uid=2_163 ignored
+                  uid=2_164 ignored
+                uid=2_165 ignored
+                  uid=2_166 ignored
+                uid=2_167 ignored
+                  uid=2_168 ignored
+                uid=2_169 ignored
+                  uid=2_170 ignored
+                  uid=2_171 ignored
+                uid=2_172 ignored
+                  uid=2_173 ignored
+                  uid=2_174 ignored
+                uid=2_175 ignored
+                  uid=2_176 ignored
+                uid=2_177 ignored
+                  uid=2_178 ignored
+                uid=2_179 ignored
+                  uid=2_180 ignored
+              uid=2_181 ignored
+                uid=2_182 generic
+                  uid=2_183 StaticText "Looking for "
+                    uid=2_11 InlineTextBox "Looking for "
+                  uid=2_184 strong
+                    uid=2_185 link "LTS releases" url="https://www.blender.org/download/lts/"
+                      uid=2_186 StaticText "LTS releases"
+                        uid=2_11 InlineTextBox "LTS releases"
+                  uid=2_187 StaticText " or "
+                    uid=2_11 InlineTextBox " or "
+                  uid=2_188 link "previous versions" url="https://www.blender.org/download/previous-versions/"
+                    uid=2_189 StaticText "previous versions"
+                      uid=2_11 InlineTextBox "previous versions"
+                  uid=2_190 StaticText "?"
+                    uid=2_11 InlineTextBox "?"
+          uid=2_191 generic
+            uid=2_192 generic
+          uid=2_193 generic
+          uid=2_194 generic
+        uid=2_195 generic
+          uid=2_196 link url="https://www.blender.org/download/releases/5-1/"
+            uid=2_197 generic
+          uid=2_198 generic
+          uid=2_199 generic
+          uid=2_200 generic
+          uid=2_201 ignored
+            uid=2_202 ignored
+              uid=2_203 generic
+                uid=2_204 ignored
+                  uid=2_205 link "What's New" url="https://www.blender.org/download/releases/5-1/"
+                    uid=2_206 heading "What's New" level="1"
+                      uid=2_207 StaticText "What's New"
+                        uid=2_11 InlineTextBox "What's New"
+                  uid=2_208 paragraph
+                    uid=2_209 StaticText "Blender 5.1 focuses on refinement, bug fixes, and a few key upgrades. Grease Pencil adds a new Fill workflow with hole support, curves and text render better, and performance improves across rendering, animation, and the viewport. Geometry Nodes expand, and shading gains the Raycast node for NPR workflows, hundreds of bug fixes, updated libraries, and so much more."
+                      uid=2_11 InlineTextBox "Blender 5.1 focuses on refinement, bug fixes, and a few key "
+                      uid=2_11 InlineTextBox "upgrades. Grease Pencil adds a new Fill workflow with hole "
+                      uid=2_11 InlineTextBox "support, curves and text render better, and performance "
+                      uid=2_11 InlineTextBox "improves across rendering, animation, and the viewport. "
+                      uid=2_11 InlineTextBox "Geometry Nodes expand, and shading gains the Raycast "
+                      uid=2_11 InlineTextBox "node for NPR workflows, hundreds of bug fixes, updated "
+                      uid=2_11 InlineTextBox "libraries, and so much more."
+                  uid=2_210 generic
+                    uid=2_211 link "New in Blender 5.1" url="https://www.blender.org/download/releases/5-1/"
+                      uid=2_212 StaticText "New in Blender 5.1"
+                        uid=2_11 InlineTextBox "New in Blender 5.1"
+                  uid=2_213 generic
+                    uid=2_214 link "See all Blender features " url="https://www.blender.org/features/"
+                      uid=2_215 StaticText "See all Blender features "
+                        uid=2_11 InlineTextBox "See all Blender features "
+                      uid=2_216 ignored
+                        uid=2_217 generic
+                          uid=2_11 StaticText ""
+                            uid=2_11 InlineTextBox ""
+        uid=2_218 generic
+          uid=2_219 ignored
+            uid=2_220 ignored
+              uid=2_221 generic
+                uid=2_222 link "Go Experimental" url="https://builder.blender.org/download/daily/"
+                  uid=2_223 heading "Go Experimental" level="1"
+                    uid=2_224 StaticText "Go Experimental"
+                      uid=2_11 InlineTextBox "Go Experimental"
+                uid=2_225 paragraph
+                  uid=2_226 StaticText "Blender evolves every day. Experimental builds have the latest features and while there might be cool bug fixes too, they are unstable and can mess up your files."
+                    uid=2_11 InlineTextBox "Blender evolves every day. Experimental builds have the latest "
+                    uid=2_11 InlineTextBox "features and while there might be cool bug fixes too, they are "
+                    uid=2_11 InlineTextBox "unstable and can mess up your files."
+                uid=2_227 paragraph
+                  uid=2_228 StaticText "It is "
+                    uid=2_11 InlineTextBox "It is "
+                  uid=2_229 strong
+                    uid=2_230 StaticText "not recommended"
+                      uid=2_11 InlineTextBox "not recommended"
+                  uid=2_231 StaticText " to use these on production environments."
+                    uid=2_11 InlineTextBox " to use these on production environments."
+                uid=2_232 link "Download Blender Experimental" url="https://builder.blender.org/download/daily/"
+                  uid=2_233 StaticText "Download Blender Experimental"
+                    uid=2_11 InlineTextBox "Download Blender Experimental"
+              uid=2_234 generic
+                uid=2_235 ignored
+                  uid=2_236 link url="https://builder.blender.org/download/daily/"
+                    uid=2_237 image
+      uid=2_238 ignored
+        uid=2_239 ignored
+          uid=2_240 ignored
+            uid=2_241 generic
+              uid=2_242 generic
+                uid=2_243 link "About" url="https://www.blender.org/about/"
+                  uid=2_244 StaticText "About"
+                    uid=2_11 InlineTextBox "About"
+                uid=2_245 list
+                  uid=2_246 listitem level="1"
+                    uid=2_247 link "Blender Foundation" url="https://www.blender.org/about/foundation/"
+                      uid=2_248 StaticText "Blender Foundation"
+                        uid=2_11 InlineTextBox "Blender Foundation"
+                  uid=2_249 listitem level="1"
+                    uid=2_250 link "Blender Institute" url="https://www.blender.org/about/institute/"
+                      uid=2_251 StaticText "Blender Institute"
+                        uid=2_11 InlineTextBox "Blender Institute"
+                  uid=2_252 listitem level="1"
+                    uid=2_253 link "Blender Studio" url="https://www.blender.org/about/studio/"
+                      uid=2_254 StaticText "Blender Studio"
+                        uid=2_11 InlineTextBox "Blender Studio"
+                  uid=2_255 listitem level="1"
+                    uid=2_256 link "License" url="https://www.blender.org/about/license/"
+                      uid=2_257 StaticText "License"
+                        uid=2_11 InlineTextBox "License"
+                  uid=2_258 listitem level="1"
+                    uid=2_259 link "Logo & Trademark" url="https://www.blender.org/about/logo/"
+                      uid=2_260 StaticText "Logo & Trademark"
+                        uid=2_11 InlineTextBox "Logo & Trademark"
+                  uid=2_261 listitem level="1"
+                    uid=2_262 link "Credits" url="https://www.blender.org/about/credits/"
+                      uid=2_263 StaticText "Credits"
+                        uid=2_11 InlineTextBox "Credits"
+                  uid=2_264 listitem level="1"
+                    uid=2_265 link "Privacy Policy" url="https://www.blender.org/privacy-policy/"
+                      uid=2_266 StaticText "Privacy Policy"
+                        uid=2_11 InlineTextBox "Privacy Policy"
+                  uid=2_267 listitem level="1"
+                    uid=2_268 link "Code of Conduct" url="https://developer.blender.org/docs/handbook/communication/code_of_conduct/"
+                      uid=2_269 StaticText "Code of Conduct"
+                        uid=2_11 InlineTextBox "Code of Conduct"
+              uid=2_270 generic
+                uid=2_271 generic
+                  uid=2_272 StaticText "Organization"
+                    uid=2_11 InlineTextBox "Organization"
+                uid=2_273 list
+                  uid=2_274 listitem level="1"
+                    uid=2_275 link "People" url="https://www.blender.org/about/people/"
+                      uid=2_276 StaticText "People"
+                        uid=2_11 InlineTextBox "People"
+                  uid=2_277 listitem level="1"
+                    uid=2_278 link "Jobs" url="https://www.blender.org/jobs/"
+                      uid=2_279 StaticText "Jobs"
+                        uid=2_11 InlineTextBox "Jobs"
+              uid=2_280 link "Blender Network" url="https://network.blender.org/"
+                uid=2_281 StaticText "Blender Network"
+                  uid=2_11 InlineTextBox "Blender Network"
+            uid=2_282 generic
+              uid=2_283 generic
+                uid=2_284 link "Download" url="https://www.blender.org/download/"
+                  uid=2_285 StaticText "Download"
+                    uid=2_11 InlineTextBox "Download"
+                uid=2_286 list
+                  uid=2_287 listitem level="1"
+                    uid=2_288 link "Latest Blender" description="Download Blender" url="https://www.blender.org/download/"
+                      uid=2_289 StaticText "Latest Blender"
+                        uid=2_11 InlineTextBox "Latest Blender"
+                  uid=2_290 listitem level="1"
+                    uid=2_291 link "Blender LTS" description="Blender Long-term Support" url="https://www.blender.org/download/lts/"
+                      uid=2_292 StaticText "Blender LTS"
+                        uid=2_11 InlineTextBox "Blender LTS"
+                  uid=2_293 listitem level="1"
+                    uid=2_294 link "Previous Versions" url="https://www.blender.org/download/previous-versions/"
+                      uid=2_295 StaticText "Previous Versions"
+                        uid=2_11 InlineTextBox "Previous Versions"
+                  uid=2_296 listitem level="1"
+                    uid=2_297 link "Experimental Builds" url="https://builder.blender.org/download/daily/?utm_medium=www-footer"
+                      uid=2_298 StaticText "Experimental Builds"
+                        uid=2_11 InlineTextBox "Experimental Builds"
+                  uid=2_299 listitem level="1"
+                    uid=2_300 link "Source Code" url="https://projects.blender.org/blender/blender?utm_medium=www-footer"
+                      uid=2_301 StaticText "Source Code"
+                        uid=2_11 InlineTextBox "Source Code"
+                  uid=2_302 listitem level="1"
+                    uid=2_303 link "Requirements" url="https://www.blender.org/download/requirements/"
+                      uid=2_304 StaticText "Requirements"
+                        uid=2_11 InlineTextBox "Requirements"
+                  uid=2_305 listitem level="1"
+                    uid=2_306 link "Benchmark" description="Blender Benchmark" url="https://opendata.blender.org/?utm_medium=www-footer"
+                      uid=2_307 StaticText "Benchmark"
+                        uid=2_11 InlineTextBox "Benchmark"
+                  uid=2_308 listitem level="1"
+                    uid=2_309 link "Flamenco" url="https://flamenco.blender.org/?utm_medium=www-footer"
+                      uid=2_310 StaticText "Flamenco"
+                        uid=2_11 InlineTextBox "Flamenco"
+              uid=2_311 generic
+                uid=2_312 link "Extensions" description="Add-ons, themes, and other extensions" url="https://extensions.blender.org/?utm_medium=www-footer"
+                  uid=2_313 StaticText "Extensions"
+                    uid=2_11 InlineTextBox "Extensions"
+                uid=2_314 list
+                  uid=2_315 listitem level="1"
+                    uid=2_316 link "Add-ons" url="https://extensions.blender.org/add-ons/?utm_medium=www-footer"
+                      uid=2_317 StaticText "Add-ons"
+                        uid=2_11 InlineTextBox "Add-ons"
+                  uid=2_318 listitem level="1"
+                    uid=2_319 link "Themes" url="https://extensions.blender.org/themes/?utm_medium=www-footer"
+                      uid=2_320 StaticText "Themes"
+                        uid=2_11 InlineTextBox "Themes"
+            uid=2_321 generic
+              uid=2_322 generic
+                uid=2_323 link "Developers" url="https://developer.blender.org/?utm_medium=www-footer"
+                  uid=2_324 StaticText "Developers"
+                    uid=2_11 InlineTextBox "Developers"
+                uid=2_325 list
+                  uid=2_326 listitem level="1"
+                    uid=2_327 link "Get Started" url="https://developer.blender.org/?utm_medium=www-footer"
+                      uid=2_328 StaticText "Get Started"
+                        uid=2_11 InlineTextBox "Get Started"
+                  uid=2_329 listitem level="1"
+                    uid=2_330 link "Projects" url="https://projects.blender.org/?utm_medium=www-footer"
+                      uid=2_331 StaticText "Projects"
+                        uid=2_11 InlineTextBox "Projects"
+                  uid=2_332 listitem level="1"
+                    uid=2_333 link "Docs" description="Developers Docs" url="https://developer.blender.org/docs/?utm_medium=www-footer"
+                      uid=2_334 StaticText "Docs"
+                        uid=2_11 InlineTextBox "Docs"
+                  uid=2_335 listitem level="1"
+                    uid=2_336 link "Blog" description="Developers Blog" url="https://code.blender.org/?utm_medium=www-footer"
+                      uid=2_337 StaticText "Blog"
+                        uid=2_11 InlineTextBox "Blog"
+                  uid=2_338 listitem level="1"
+                    uid=2_339 link "Forum" description="Developers Forum" url="https://devtalk.blender.org/?utm_medium=www-footer"
+                      uid=2_340 StaticText "Forum"
+                        uid=2_11 InlineTextBox "Forum"
+                  uid=2_341 listitem level="1"
+                    uid=2_342 link "YouTube" description="YouTube (Developers)" url="https://www.youtube.com/blenderdevelopers"
+                      uid=2_343 StaticText "YouTube"
+                        uid=2_11 InlineTextBox "YouTube"
+                  uid=2_344 listitem level="1"
+                    uid=2_345 link "Python API" url="https://docs.blender.org/api/current/?utm_medium=www-footer"
+                      uid=2_346 StaticText "Python API"
+                        uid=2_11 InlineTextBox "Python API"
+              uid=2_347 generic
+                uid=2_348 link "Blender Studio" url="https://studio.blender.org/?utm_medium=www-footer"
+                  uid=2_349 StaticText "Blender Studio"
+                    uid=2_11 InlineTextBox "Blender Studio"
+                uid=2_350 list
+                  uid=2_351 listitem level="1"
+                    uid=2_352 link "Films" description="Blender Studio Films" url="https://studio.blender.org/films/?utm_medium=www-footer"
+                      uid=2_353 StaticText "Films"
+                        uid=2_11 InlineTextBox "Films"
+                  uid=2_354 listitem level="1"
+                    uid=2_355 link "Training" description="Blender Studio Training" url="https://studio.blender.org/training/?utm_medium=www-footer"
+                      uid=2_356 StaticText "Training"
+                        uid=2_11 InlineTextBox "Training"
+                  uid=2_357 listitem level="1"
+                    uid=2_358 link "Tools & Pipeline" description="Blender Studio Tools" url="https://studio.blender.org/tools/?utm_medium=www-footer"
+                      uid=2_359 StaticText "Tools & Pipeline"
+                        uid=2_11 InlineTextBox "Tools & Pipeline"
+            uid=2_360 generic
+              uid=2_361 generic
+                uid=2_362 link "Support" url="https://www.blender.org/support/"
+                  uid=2_363 StaticText "Support"
+                    uid=2_11 InlineTextBox "Support"
+                uid=2_364 list
+                  uid=2_365 listitem level="1"
+                    uid=2_366 link "Manual" url="https://docs.blender.org/manual/?utm_medium=www-footer"
+                      uid=2_367 StaticText "Manual"
+                        uid=2_11 InlineTextBox "Manual"
+                  uid=2_368 listitem level="1"
+                    uid=2_369 link "Community" url="https://www.blender.org/community/"
+                      uid=2_370 StaticText "Community"
+                        uid=2_11 InlineTextBox "Community"
+                  uid=2_371 listitem level="1"
+                    uid=2_372 link "FAQ" url="https://www.blender.org/support/faq/"
+                      uid=2_373 StaticText "FAQ"
+                        uid=2_11 InlineTextBox "FAQ"
+              uid=2_374 generic
+                uid=2_375 link "Get Involved" url="https://www.blender.org/get-involved/"
+                  uid=2_376 StaticText "Get Involved"
+                    uid=2_11 InlineTextBox "Get Involved"
+                uid=2_377 list
+                  uid=2_378 listitem level="1"
+                    uid=2_379 link "Documentation" url="https://www.blender.org/get-involved/documenters/"
+                      uid=2_380 StaticText "Documentation"
+                        uid=2_11 InlineTextBox "Documentation"
+                  uid=2_381 listitem level="1"
+                    uid=2_382 link "Education" url="https://www.blender.org/get-involved/"
+                      uid=2_383 StaticText "Education"
+                        uid=2_11 InlineTextBox "Education"
+              uid=2_384 generic
+                uid=2_385 link "News" url="https://www.blender.org/news/"
+                  uid=2_386 StaticText "News"
+                    uid=2_11 InlineTextBox "News"
+                uid=2_387 list
+                  uid=2_388 listitem level="1"
+                    uid=2_389 link "Press Releases" url="https://www.blender.org/category/press/"
+                      uid=2_390 StaticText "Press Releases"
+                        uid=2_11 InlineTextBox "Press Releases"
+                  uid=2_391 listitem level="1"
+                    uid=2_392 link "User Stories" url="https://www.blender.org/get-involved/user-stories/"
+                      uid=2_393 StaticText "User Stories"
+                        uid=2_11 InlineTextBox "User Stories"
+              uid=2_394 link "Blender Conference" url="https://conference.blender.org/"
+                uid=2_395 StaticText "Blender Conference"
+                  uid=2_11 InlineTextBox "Blender Conference"
+            uid=2_396 generic
+              uid=2_397 generic
+                uid=2_398 link "Follow Blender" url="https://bsky.app/profile/blender.org"
+                  uid=2_399 StaticText "Follow Blender"
+                    uid=2_11 InlineTextBox "Follow Blender"
+                uid=2_400 list
+                  uid=2_401 listitem level="1"
+                    uid=2_402 link "" description="Blender's Official YouTube channel" url="https://youtube.com/BlenderFoundation"
+                      uid=2_403 ignored
+                        uid=2_404 generic
+                          uid=2_11 StaticText ""
+                            uid=2_11 InlineTextBox ""
+                  uid=2_405 listitem level="1"
+                    uid=2_406 link "" description="Blender's PeerTube instance" url="https://video.blender.org/"
+                      uid=2_407 ignored
+                        uid=2_408 generic
+                          uid=2_11 StaticText ""
+                            uid=2_11 InlineTextBox ""
+                  uid=2_409 listitem level="1"
+                    uid=2_410 link "" description="Follow Blender on Bluesky" url="https://bsky.app/profile/blender.org"
+                      uid=2_411 ignored
+                        uid=2_412 generic
+                          uid=2_11 StaticText ""
+                            uid=2_11 InlineTextBox ""
+                  uid=2_413 listitem level="1"
+                    uid=2_414 link "" description="Follow Blender on Instagram" url="https://instagram.com/blender.official/"
+                      uid=2_415 ignored
+                        uid=2_416 generic
+                          uid=2_11 StaticText ""
+                            uid=2_11 InlineTextBox ""
+                  uid=2_417 listitem level="1"
+                    uid=2_418 link "" description="Follow Blender on Facebook" url="https://www.facebook.com/YourOwn3DSoftware/"
+                      uid=2_419 ignored
+                        uid=2_420 generic
+                          uid=2_11 StaticText ""
+                            uid=2_11 InlineTextBox ""
+                  uid=2_421 listitem level="1"
+                    uid=2_422 link "" description="Follow Blender on LinkedIn" url="https://www.linkedin.com/company/blender-org/"
+                      uid=2_423 ignored
+                        uid=2_424 generic
+                          uid=2_11 StaticText ""
+                            uid=2_11 InlineTextBox ""
+                  uid=2_425 listitem level="1"
+                    uid=2_426 link "Follow Blender on Mastodon" url="https://mastodon.social/@blender"
+                      uid=2_427 image
+                  uid=2_428 listitem level="1"
+                    uid=2_429 link "" description="Follow Blender on TikTok" url="https://www.tiktok.com/@blender_org"
+                      uid=2_430 ignored
+                        uid=2_431 generic
+                          uid=2_11 StaticText ""
+                            uid=2_11 InlineTextBox ""
+                  uid=2_432 listitem level="1"
+                    uid=2_433 link "" description="Follow Blender on Bilibili" url="https://space.bilibili.com/3546814074587443"
+                      uid=2_434 ignored
+                        uid=2_435 generic
+                          uid=2_11 StaticText ""
+                            uid=2_11 InlineTextBox ""
+              uid=2_436 generic
+                uid=2_437 link "Support Blender" url="https://fund.blender.org/?utm_medium=www-footer"
+                  uid=2_438 StaticText "Support Blender"
+                    uid=2_11 InlineTextBox "Support Blender"
+                uid=2_439 list
+                  uid=2_440 listitem level="1"
+                    uid=2_441 link " Donate" url="https://fund.blender.org/?utm_medium=www-footer"
+                      uid=2_442 generic
+                        uid=2_443 generic
+                          uid=2_11 StaticText ""
+                            uid=2_11 InlineTextBox ""
+                      uid=2_444 StaticText " Donate"
+                        uid=2_11 InlineTextBox " Donate"
+                  uid=2_445 listitem level="1"
+                    uid=2_446 link "One-time Donation" url="https://fund.blender.org/donate-once/?utm_medium=www-footer"
+                      uid=2_447 StaticText "One-time Donation"
+                        uid=2_11 InlineTextBox "One-time Donation"
+      uid=2_448 contentinfo
+        uid=2_449 StaticText "Artistic freedom starts with Blender "
+          uid=2_11 InlineTextBox "Artistic freedom starts with Blender "
+        uid=2_450 ignored
+          uid=2_451 generic
+            uid=2_11 StaticText ""
+              uid=2_11 InlineTextBox ""
+        uid=2_452 StaticText "The Free and Open Source 3D Creation Suite"
+          uid=2_11 InlineTextBox "The Free and Open Source 3D Creation Suite"
