@@ -40,7 +40,7 @@ Before starting this tutorial, ensure you have:
 When you first open Blender, you'll see these key areas:
 
 | Area | Purpose |
-|------|---------|
+| ---- | ------- |
 | **3D Viewport** | The main workspace where you view and interact with your 3D scene |
 | **Outliner** | Shows a tree view of all objects in your scene (top-right) |
 | **Properties Editor** | Object properties, materials, modifiers, physics (right panel) |
@@ -50,7 +50,7 @@ When you first open Blender, you'll see these key areas:
 ### Basic Navigation
 
 | Action | Shortcut |
-|--------|----------|
+| ------ | -------- |
 | Rotate view | Middle Mouse Button (MMB) drag |
 | Pan view | Shift + MMB drag |
 | Zoom | Scroll wheel |
@@ -64,7 +64,7 @@ When you first open Blender, you'll see these key areas:
 ### Object Manipulation
 
 | Action | Shortcut |
-|--------|----------|
+| ------ | -------- |
 | Select object | Left Click |
 | Move (grab) | `G` |
 | Rotate | `R` |
@@ -97,7 +97,7 @@ Use the **Add** menu (Shift + `A`) to create basic shapes:
 Switch to Edit Mode (`Tab`) to manipulate the mesh:
 
 | Tool | Shortcut | Use Case |
-|------|----------|----------|
+| ---- | -------- | -------- |
 | **Extrude** | `E` | Extend faces outward to add geometry |
 | **Loop Cut** | Ctrl + `R` | Add edge loops for more detail |
 | **Bevel** | Ctrl + `B` | Round edges for realistic look |
@@ -110,7 +110,7 @@ Switch to Edit Mode (`Tab`) to manipulate the mesh:
 Modifiers are non-destructive operations that transform your mesh:
 
 | Modifier | Effect |
-|----------|--------|
+| -------- | ------ |
 | **Subdivision Surface** | Smooths geometry by subdividing faces |
 | **Mirror** | Creates a symmetrical copy across an axis |
 | **Boolean** | Combines/subtracts meshes from each other |
@@ -133,7 +133,7 @@ Modifiers are non-destructive operations that transform your mesh:
 
 BlenderMCP uses a three-tier architecture:
 
-```
+```text
 +---------------------------+     +----------------------+     +-------------------+
 |   Tier 1: AI Client       |     |  Tier 2: MCP Server  |     | Tier 3: Blender   |
 |                           |     |                      |     |                   |
@@ -165,11 +165,13 @@ BlenderMCP uses a three-tier architecture:
 ### Step 1: Install uv
 
 **macOS:**
+
 ```bash
 brew install uv
 ```
 
 **Windows (PowerShell):**
+
 ```powershell
 powershell -c "irm https://astral.sh/uv/install.ps1 | iex"
 
@@ -180,11 +182,13 @@ $userPath = [Environment]::GetEnvironmentVariable("Path", "User")
 ```
 
 **Linux:**
+
 ```bash
 curl -LsSf https://astral.sh/uv/install.sh | sh
 ```
 
 Verify installation:
+
 ```bash
 uv --version
 ```
@@ -227,7 +231,7 @@ uv --version
 Open the Claude Desktop config file:
 
 | OS | Config file location |
-|----|---------------------|
+| -- | -------------------- |
 | macOS | `~/Library/Application Support/Claude/claude_desktop_config.json` |
 | Windows | `%APPDATA%\Claude\claude_desktop_config.json` |
 | Linux | `~/.config/Claude/claude_desktop_config.json` |
@@ -339,9 +343,11 @@ Add `"DEBUG": "1"` to the env section for verbose logging:
 These tools are always available when BlenderMCP is connected:
 
 #### `get_scene_info`
+
 Returns a JSON overview of the current scene including object names, types, locations, material counts, cameras, and lights.
 
 **Example response:**
+
 ```json
 {
   "name": "Scene",
@@ -356,16 +362,19 @@ Returns a JSON overview of the current scene including object names, types, loca
 ```
 
 #### `get_object_info`
+
 Returns detailed information about a specific object: location, rotation, scale, materials, mesh statistics, and bounding box.
 
 **Parameters:** `object_name` (string)
 
 #### `execute_blender_code`
+
 Executes arbitrary Python code in Blender with full access to the `bpy` module. This is the most powerful tool -- it can do anything Blender's Python API supports.
 
 **Parameters:** `code` (string)
 
 **Example:**
+
 ```python
 import bpy
 bpy.ops.mesh.primitive_cube_add(size=2, location=(0, 0, 1))
@@ -374,6 +383,7 @@ cube.name = "MyCube"
 ```
 
 #### `get_viewport_screenshot`
+
 Captures the current 3D viewport and returns it as an image. Useful for the AI to "see" what it has created.
 
 **Parameters:** `max_size` (int, default: 800) -- Maximum dimension in pixels
@@ -383,7 +393,7 @@ Captures the current 3D viewport and returns it as an image. Useful for the AI t
 > Requires the **"Use assets from Poly Haven"** checkbox to be enabled in the BlenderMCP panel.
 
 | Tool | Description |
-|------|-------------|
+| ---- | ----------- |
 | `get_polyhaven_categories` | Lists available categories for HDRIs, textures, or models |
 | `search_polyhaven_assets` | Search for assets by type and category |
 | `download_polyhaven_asset` | Download and import an asset into Blender |
@@ -394,7 +404,7 @@ Captures the current 3D viewport and returns it as an image. Useful for the AI t
 > Requires a **Sketchfab API key** entered in the BlenderMCP panel.
 
 | Tool | Description |
-|------|-------------|
+| ---- | ----------- |
 | `search_sketchfab_models` | Search Sketchfab's model library |
 | `get_sketchfab_model_preview` | Get a thumbnail preview of a model |
 | `download_sketchfab_model` | Download and import a model by UID with size normalization |
@@ -404,7 +414,7 @@ Captures the current 3D viewport and returns it as an image. Useful for the AI t
 > Requires a **Hyper3D API key** (free trial available via the UI button).
 
 | Tool | Description |
-|------|-------------|
+| ---- | ----------- |
 | `generate_hyper3d_model_via_text` | Generate a 3D model from a text description |
 | `generate_hyper3d_model_via_images` | Generate a 3D model from reference images |
 | `poll_rodin_job_status` | Check if the generation task has completed |
@@ -415,7 +425,7 @@ Captures the current 3D viewport and returns it as an image. Useful for the AI t
 > Requires **Tencent Cloud credentials** or a local API endpoint.
 
 | Tool | Description |
-|------|-------------|
+| ---- | ----------- |
 | `generate_hunyuan3d_model` | Generate a 3D model from text and/or image |
 | `poll_hunyuan_job_status` | Check task status (returns ZIP URL when done) |
 | `import_generated_asset_hunyuan` | Import the generated OBJ model |
@@ -456,6 +466,7 @@ cube.data.materials.append(mat)
 > "Create a table with a red sphere, green cylinder, and gold torus on top of it. Add nice lighting."
 
 This demonstrates the power of AI-assisted modeling -- the AI generates all the code to:
+
 1. Create a table (top + 4 legs)
 2. Place objects on the table
 3. Apply materials with metallic and roughness properties
@@ -530,7 +541,7 @@ One of BlenderMCP's strengths is the feedback loop. The AI can:
 3. **Inspect the scene** using `get_scene_info` to verify object properties
 4. **Iterate** by modifying the scene based on what it sees
 
-```
+```text
 You: "Create a simple house"
 AI:  [creates walls, roof, door using execute_blender_code]
 AI:  [takes viewport screenshot to verify]
@@ -562,7 +573,7 @@ AI:  "That looks better! Would you like me to add windows?"
 **What gets imported:**
 
 | Asset Type | What Blender Creates |
-|------------|---------------------|
+| ---------- | -------------------- |
 | **HDRIs** | World environment shader with TexCoord > Mapping > EnvironmentTexture nodes |
 | **Textures** | Full PBR material: color, roughness, metallic, normal, displacement maps |
 | **Models** | Imported glTF/FBX/OBJ geometry with dependencies |
@@ -574,14 +585,16 @@ Search and download models from Sketchfab's massive library:
 > "Search Sketchfab for a low-poly chair"
 
 The AI will:
+
 1. Search the library (`search_sketchfab_models`)
 2. Show you thumbnail previews (`get_sketchfab_model_preview`)
 3. Download and import your choice (`download_sketchfab_model`)
 4. Scale it to the size you specify (`target_size` in meters)
 
 **Size guide:**
+
 | Object | Typical target_size |
-|--------|-------------------|
+| ------ | ------------------ |
 | Cup/phone | 0.1 - 0.3 m |
 | Chair | 1.0 m |
 | Table | 0.75 m |
@@ -595,6 +608,7 @@ Generate entirely new 3D models from text descriptions:
 > "Generate a 3D model of a coffee mug using Hyper3D"
 
 The process is asynchronous:
+
 1. **Generate** -- Submit a text prompt, receive a task ID
 2. **Poll** -- Check status until "Done"
 3. **Import** -- Bring the completed model into Blender
@@ -678,7 +692,7 @@ bpy.ops.wm.stl_export(
 ### Connection Issues
 
 | Problem | Solution |
-|---------|----------|
+| ------- | -------- |
 | No hammer icon in Claude Desktop | Restart Claude Desktop; verify JSON config syntax; check `uv` is in PATH |
 | "Connection refused" errors | Ensure you clicked "Connect to Claude" in Blender; verify addon is enabled; check port 9876 |
 | `uvx: command not found` | Reinstall `uv` and add to PATH; restart the AI client |
@@ -702,7 +716,7 @@ netstat -ano | findstr :9876
 ### Common Errors
 
 | Error | Cause | Fix |
-|-------|-------|-----|
+| ----- | ----- | --- |
 | `Code execution error` | Invalid Python syntax or API call | Check Blender's system console for the traceback |
 | `Object not found` | Object name mismatch | Use `get_scene_info` to check exact object names |
 | `Module not found` | Missing Python dependency in Blender | Install packages via Blender's Python: `bpy.app.binary_path_python` |
