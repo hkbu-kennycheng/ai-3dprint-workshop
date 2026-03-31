@@ -718,31 +718,6 @@ netstat -ano | findstr :9876
 
 ---
 
-## Project Examples
-
-This workshop repository includes several models created using Blender MCP:
-
-| File | Description |
-|------|-------------|
-| `cat_model.blend` | Blender project file for the cat model |
-| `printable_cat.stl` | 3D-print-ready cat exported as STL |
-| `RobotCat.blend` | Robot cat variation |
-| `RobotCat.stl` | Robot cat STL export |
-| `squeeze_fan.scad` | OpenSCAD gear mechanism |
-
-### Squeeze Fan Gear Mechanism
-
-![Squeeze fan gear mechanism](squeeze_fan_render.png)
-*A gear mechanism modeled with interlocking gears and fan blades*
-
-![Gear closeup detail](squeeze_fan_closeup.png)
-*Close-up showing gear tooth meshing detail*
-
-![Animated gear mechanism](squeeze_fan_animation.gif)
-*Animation of the gear mechanism in motion*
-
----
-
 ## Further Resources
 
 - [Blender Manual](https://docs.blender.org/manual/en/latest/)
