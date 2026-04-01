@@ -4,6 +4,16 @@ This repository contains materials for a workshop on using AI tools to enhance 3
 
 ![Workshop Banner](logo.png)
 
+## Clone this Repository
+
+To access the workshop materials, you can clone [this repository](https://github.com/hkbu-kennycheng/ai-3dprint-workshop.git) to your local machine using the following command:
+
+```bash
+git clone https://github.com/hkbu-kennycheng/ai-3dprint-workshop.git
+```
+
+Or you can download the ZIP file from the GitHub page and extract it to your desired location.
+
 ## Workshop Materials
 
 ### Setup Guides
